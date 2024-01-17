@@ -1,0 +1,156 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box ;
+}
+.my-nav{
+  border-bottom: 1px solid rgb(238, 238, 238);
+ 
+  background-color: white;
+}
+header{
+   position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.vertical-line {
+  height: 40px;
+  border-right: 2px solid #f2f2f2;
+}
+
+.location h5 {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  margin-bottom: 6px;
+  font-size: 18px;
+  line-height: 15px;
+}
+.location p {
+  font-size: 13px;
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+}
+
+.search-div {
+  padding: 0px 12px;
+  border: 1px solid rgb(232, 232, 232);
+  border-radius: 12px;
+  background-color: rgb(248, 248, 248);
+  color: rgb(130, 130, 130);
+}
+.search-div input {
+  border: none;
+  background-color: transparent;
+  width: 45vw;
+  height: 45px;
+}
+
+.my-cart {
+  background-color: #0c831f !important;
+  font-size: 14px !important;
+  border-radius: 8px !important;
+  font-weight: bold !important;
+  color: rgb(255, 255, 255) !important;
+}
+::placeholder {
+  font-size: 14px;
+  color: rgb(153, 153, 153);
+}
+.my-container{
+     width: 81%;
+     margin: auto;
+     overflow-x: scroll;
+    
+}
+.my-list{
+    white-space: nowrap;
+}
+.my-list img{
+   margin-inline:15px;
+   margin-left:0;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+.my-catagory{
+    width:83%;
+}
+.my-card{
+    width: 179px;
+    margin-inline: 10px;
+}
+.my-card-time{
+    width: fit-content;
+    font-weight: 700;
+    font-size: 9px;
+    color: rgb(54, 54, 54);
+    border-radius: 4px;
+    padding: 0px 4px;
+    background-color: rgb(248, 248, 248);
+   
+}
+.my-card-content{
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 13px;
+    margin-bottom: 6px;
+    overflow: auto;
+  
+}
+.my-card-weight{
+  color: #666666;
+  
+}
+.my-card-price{
+  color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 11px;
+}
+.mrp{
+    color: rgb(130, 130, 130);
+
+}
+.my-products{
+   width: 82%;
+   margin:auto;
+   overflow-x: scroll;
+}
+.my-products h4{
+  font-weight: bolder !important;
+  line-height: 32px !important;
+  margin-left: 10px;
+  margin-bottom: 25px;
+}
+
+.row-class{
+  width: 100%;
+  overflow-x: scroll;
+}
+footer{
+ text-align: center;
+ margin:50px 0;
+
+}
+.my-love{
+  color: red;
+}
+.my-breads{
+  
+    font-size: 20px;
+    color: rgb(12, 131, 31);
+    font-weight: 500;
+   
+}
+@media screen and (max-width:768px) {
+  .my-nav{
+    flex-direction: column !important;
+  }
+  .vetical-line, .hero-section img{
+    display: none !important;
+  }
+   .my-catagory{
+    width:100%;
+   }
+   
+}
